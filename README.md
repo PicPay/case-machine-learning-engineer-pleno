@@ -28,13 +28,13 @@ Abaixo estão as regras/orientações para a entrega:
 
 
 * A API deverá ser feita em **Python** e Conteinerizada no docker. A API deverá ter os seguintes endpoints:
-    * /model/predict/
+    * `/model/predict/`
         * Endpoint onde deverá receber um payload com as informações do voo e retornar a previsão do atraso no destino
-    * /model/load/
+    * `/model/load/`
         * Endpoint onde deverá receber o arquivo .pkl do modelo e deixar a API pronta para realizar predições
-    * /model/history/
+    * `/model/history/`
         * Endpoint onde deverá exibir o histórico de predições realizadas (o payload de entrada + as saídas preditas)
-    * /health/
+    * `/health/`
         * Endpoint que irá retornar a saúde da API
 * O Notebook deverá ser exportado no formato **.ipynb **e estar dentro do repositório git.
     * Deverá realizar as transformações utilizando spark:
